@@ -1,0 +1,20 @@
+{
+  "name": "lassediercks-resources",
+  "version": "0.0.0",
+  "authors": [
+    "Lasse Diercks <lasse@jimdo.com>"
+  ],
+  "description": "resources for my homepage lassediercks.de",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "lassediercks.de",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
