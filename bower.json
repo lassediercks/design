@@ -1,11 +1,11 @@
 {
   "name": "lassediercks-resources",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "authors": [
     "Lasse Diercks <hi@lassediercks.de>"
   ],
   "description": "resources for my homepage lassediercks.de",
-  "main": "",
+  "main": "lassediercks.css",
   "moduleType": [],
   "license": "None",
   "homepage": "lassediercks.de",
@@ -15,6 +15,8 @@
     "node_modules",
     "bower_components",
     "test",
+    "index.html",
+    "gulpfile.js",
     "tests"
   ]
 }
