@@ -1,0 +1,27 @@
+.ld{
+  font-family: "Branding", sans-serif;
+
+  --ld-dark: #505050;
+  --ld-light: #F9F9F9;
+  --ld-red: #8C2B44;
+  --ld-blue: #4361C6;
+
+}
+
+.ld-headline{
+  color: var(--ld-dark);
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+
+.ld-headline--1{
+  font-size: 66px;
+}
+
+.ld-link{
+  text-decoration: none;
+  color: var(--ld-blue);
+}
+
