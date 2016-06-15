@@ -4,8 +4,9 @@
   --ld-dark: #505050;
   --ld-light: #F9F9F9;
   --ld-red: #8C2B44;
+  --ld-yellow: #F5EB5E;
   --ld-blue: #4361C6;
-
+  font-size: 16px;
 }
 
 
@@ -29,5 +30,22 @@
 .ld-link{
   text-decoration: none;
   color: var(--ld-blue);
+}
+
+.ld-button{
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: inherit;
+  background: none;
+  border: 2px solid;
+  padding: 1em 2em;
+  color: var(--ld-blue);
+  text-align: center;
+}
+.ld-button:hover, .ld-button:active{
+  color: var(--ld-light);
+  border-color: var(--ld-blue);
+  background: var(--ld-blue);
 }
 
