@@ -1,0 +1,17 @@
+{
+  "name": "lassediercks-ressources",
+  "version": "0.0.1",
+  "description": "these are my ressources for my wesbite lassediercks.de",
+  "main": "lassediercks.css",
+  "scripts": {
+    "start": "gulp webserver"
+  },
+  "author": "@lassediercks",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-server-livereload": "^1.7.3"
+  }
+}
