@@ -1,6 +1,6 @@
 {
   "name": "lassediercks-design",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "these are my ressources for my wesbite lassediercks.de",
   "main": "lassediercks.css",
   "scripts": {
@@ -10,6 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1"
+  },
+  "repository" :
+    { "type" : "git"
+    , "url" : "https://github.com/lassediercks/design"
   },
   "devDependencies": {
     "gulp-server-livereload": "^1.7.3"
