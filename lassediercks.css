@@ -7,26 +7,8 @@
   src: url('./font/Branding-Bold.otf');
 }
 
-.ld {
-  font-size: 1em;
-  line-height: 1.4em;
-}
-
-@media screen and (min-width: 20em) {
-  .ld {
-    font-size: calc(1em + (1.3125 - 1) * ((100vw - 20em) / (80 - 20)));
-    line-height: calc(1.4em + (1.8 - 1.4) * ((100vw - 20em) / (80 - 20)));
-  }
-}
-
-@media (min-width: 80em) {
-  .ld {
-    font-size: 1.3125em;
-    line-height: 1.8em;
-  }
-}
-
 .ld{
+  font-size: 1.630vw;
   font-family: "ld-font-medium", sans-serif;
   --ld-dark: #505050;
   --ld-really-dark: #3B3B3B;
@@ -35,6 +17,19 @@
   --ld-yellow: #F5EB5E;
   --ld-blue: #4361C6;
 }
+@media (max-width: 600px) {
+    .ld{
+      font-size: 2.30vw;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .ld{
+      font-size: 16px;
+    }
+}
+
 
 
 
@@ -48,10 +43,10 @@
 
 .ld-headline--1{
   font-family: "ld-font-bold";
-  font-size: 2.5em;
+  font-size: 5em;
 }
 .ld-headline--2{
-  font-size: 2em;
+  font-size: 3em;
   font-weight: normal;
 }
 
