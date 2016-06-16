@@ -1,15 +1,7 @@
-@font-face {
-  font-family: 'ld-font-medium';
-  src: url('./font/Branding-Medium.otf');
-}
-@font-face {
-  font-family: 'ld-font-bold';
-  src: url('./font/Branding-Bold.otf');
-}
 
 .ld{
   font-size: 1.630vw;
-  font-family: "ld-font-medium", sans-serif;
+  font-family: "Branding", sans-serif;
   --ld-dark: #505050;
   --ld-really-dark: #3B3B3B;
   --ld-light: #F9F9F9;
@@ -22,7 +14,6 @@
       font-size: 2.30vw;
     }
 }
-
 
 @media (min-width: 900px) {
     .ld{
@@ -42,7 +33,7 @@
 
 
 .ld-headline--1{
-  font-family: "ld-font-bold";
+  font-weight: bold;
   font-size: 5em;
 }
 .ld-headline--2{

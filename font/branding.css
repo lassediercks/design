@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Branding';
+    src: url('branding-medium-webfont.woff2') format('woff2'),
+         url('branding-medium-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Branding';
+    src: url('branding-bold-webfont.woff2') format('woff2'),
+         url('branding-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
