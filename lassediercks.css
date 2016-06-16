@@ -44,6 +44,16 @@
 .ld-link{
   text-decoration: none;
   color: var(--ld-blue);
+  position: relative;
+}
+.ld-link:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: var(--ld-blue);
 }
 
 .ld-button{
