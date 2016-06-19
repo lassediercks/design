@@ -43,7 +43,7 @@
 
 .ld-link{
   text-decoration: none;
-  color: var(--ld-blue);
+  color: inherit;
   position: relative;
 }
 .ld-link:after{
@@ -53,7 +53,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background: var(--ld-blue);
+  background: currentColor;
 }
 
 .ld-button{
