@@ -1,13 +1,16 @@
-
-.ld{
-  font-size: 1.630vw;
-  font-family: "Branding", sans-serif;
+:root{
   --ld-dark: #505050;
   --ld-really-dark: #3B3B3B;
   --ld-light: #F9F9F9;
   --ld-red: #8C2B44;
   --ld-yellow: #F5EB5E;
   --ld-blue: #4361C6;
+}
+
+.ld{
+  font-size: 1.630vw;
+  font-family: "Branding", sans-serif;
+
 }
 @media (max-width: 600px) {
     .ld{

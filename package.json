@@ -8,14 +8,17 @@
   },
   "author": "@lassediercks",
   "license": "ISC",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
-  "repository" :
-    { "type" : "git"
-    , "url" : "https://github.com/lassediercks/design"
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lassediercks/design"
   },
   "devDependencies": {
-    "gulp-server-livereload": "^1.7.3"
+    "cssnano": "^3.7.4",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-server-livereload": "^1.7.3",
+    "postcss": "^5.1.2",
+    "postcss-cssnext": "^2.7.0"
   }
 }
