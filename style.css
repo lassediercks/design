@@ -1,6 +1,21 @@
 body{
-  padding: 2em;
   margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.demo-head{
+  background: var(--ld-light);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 3em;
+  border-bottom: var(--ld-red) 5px solid;
+
+}
+.demo-main{
+  margin: 2em;
 }
 .demo-con{
   border: 5px solid #eee;
