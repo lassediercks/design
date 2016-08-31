@@ -84,3 +84,12 @@
 .ld-button:focus{
   outline: 5px solid var(--ld-yellow);
 }
+
+::selection{
+  background: var(--ld-red); 
+  color: var(--ld-light);
+}
+::-moz-selection {
+  background: var(--ld-red); 
+  color: var(--ld-light);
+}
