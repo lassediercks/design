@@ -9,7 +9,6 @@
 }
 
 .ld{
-  font-size: 1.630vw;
   font-family: "Branding", sans-serif;
 
 }
@@ -92,12 +91,28 @@ h2.ld-headline{
   border-radius: 5px;
   text-decoration: none;
   color: var(--ld-really-dark);
+  margin: 0 0em .3em 0;
+  box-sizing: border-box;
+  display: inline-block;
 }
 .ld-tag:focus{
   outline: none;
   box-shadow: 0 0 0 5px  var(--ld-yellow);
 }
 
+.ld-list{
+  margin: 0;
+  padding: 0;
+}
+.ld-list__item{
+  list-style-type: none;
+  padding: .3em 0;
+}
+.ld-list__item:before{
+  content:'•';
+  margin-right: .3em;
+  color: var(--ld-green);
+}
 
 
 ::selection{
