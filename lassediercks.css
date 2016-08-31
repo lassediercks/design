@@ -48,18 +48,8 @@ h3.ld-headline{
   line-height: 2;
 }
 .ld-link{
-  text-decoration: none;
   color: inherit;
   position: relative;
-}
-.ld-link:after{
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background: currentColor;
 }
 .ld-link:focus{
   background: var(--ld-yellow);
