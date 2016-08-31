@@ -3,16 +3,19 @@ body{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  background: var(--ld-light);
+
 }
 
 .demo-head{
-  background: var(--ld-light);
   color: white;
   width: 100%;
   text-align: center;
   padding: 3em;
-  border-bottom: var(--ld-red) 5px solid;
-
+  background: var(--ld-red);
+}
+.demo-head h2{
+  color: white;
 }
 .demo-main{
   margin: 2em;
@@ -20,8 +23,10 @@ body{
 .demo-con{
   border: 5px solid #eee;
   padding: 2em;
-  max-width: 600px;
+  max-width: 900px;
   margin-bottom: 1em;
+  background: white;
+  border-radius: 1px;
 }
 
 .demo-label{
@@ -33,10 +38,19 @@ body{
 
 .demo-color{
   display: inline-block;
-  margin-right: .5em;
+  padding: 1em .2em;
+}
+.demo-color-label{
+  font-size: 1.5em;
+  margin: .3em 0;
 }
 .demo-color-square{
-  width: 100px;
+  width: 150px;
   height: 100px;
+  border-radius: 5px;
   display: inline-block;
+}
+
+.demo-footer{
+  text-align: center;
 }

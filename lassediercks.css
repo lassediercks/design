@@ -5,6 +5,7 @@
   --ld-red: #8C2B44;
   --ld-yellow: #F5EB5E;
   --ld-blue: #4361C6;
+  --ld-green: #20E8B4;
 }
 
 .ld{
@@ -24,16 +25,12 @@
     }
 }
 
-
-
-
 .ld-headline{
   color: var(--ld-dark);
   line-height: 1.2;
   margin: 0;
   padding: 0;
 }
-
 
 .ld-headline--1{
   font-weight: bold;
@@ -68,6 +65,7 @@
   font-size: 1.2em;
   line-height: 1.5;
   max-width: 60em;
+  margin: 0;
 }
 
 .ld-button{
@@ -82,6 +80,7 @@
   color: var(--ld-light);
   text-align: center;
 }
+
 .ld-button:focus{
   outline: 5px solid var(--ld-yellow);
 }
