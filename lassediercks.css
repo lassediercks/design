@@ -86,6 +86,20 @@ h2.ld-headline{
   outline: 5px solid var(--ld-yellow);
 }
 
+.ld-tag{
+  background: var(--ld-green);
+  padding: .3em .5em;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--ld-really-dark);
+}
+.ld-tag:focus{
+  outline: none;
+  box-shadow: 0 0 0 5px  var(--ld-yellow);
+}
+
+
+
 ::selection{
   background: var(--ld-red); 
   color: var(--ld-light);
