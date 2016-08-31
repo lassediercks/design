@@ -7,16 +7,6 @@ body{
 
 }
 
-.demo-head{
-  color: white;
-  width: 100%;
-  text-align: center;
-  padding: 3em;
-  background: var(--ld-red);
-}
-.demo-head h2{
-  color: white;
-}
 .demo-main{
   margin: 2em;
 }
