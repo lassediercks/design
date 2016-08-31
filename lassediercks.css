@@ -5,7 +5,7 @@
   --ld-red: #8C2B44;
   --ld-yellow: #F5EB5E;
   --ld-blue: #4361C6;
-  --ld-green: #20E8B4;
+  --ld-green: #A3F6E0;
 }
 
 .ld{
@@ -32,11 +32,11 @@
   padding: 0;
 }
 
-.ld-headline--1{
+h1.ld-headline{
   font-weight: bold;
   font-size: 5em;
 }
-.ld-headline--2{
+h2.ld-headline{
   font-size: 3em;
   font-weight: normal;
 }
