@@ -13,6 +13,7 @@
   font-family: "Branding", sans-serif;
 
 }
+
 @media (max-width: 600px) {
     .ld{
       font-size: 2.30vw;
@@ -25,7 +26,11 @@
     }
 }
 
-
+.ld-avatar{
+  border-radius: 59px;
+  width: 120px;
+  border: 5px solid var(--ld-light);
+}
 
 .ld-headline{
   color: var(--ld-dark);
