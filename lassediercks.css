@@ -5,7 +5,8 @@
   --ld-red: #8C2B44;
   --ld-yellow: #F5EB5E;
   --ld-blue: #4361C6;
-  --ld-green: #A3F6E0;
+  --ld-green--light: #A3F6E0;
+  --ld-green: #20E8B4;
 }
 
 .ld{
@@ -32,6 +33,7 @@
   font-size: 3em;
 }
 
+
 h1.ld-headline{
   font-weight: bold;
   font-size: 5em;
@@ -41,6 +43,10 @@ h2.ld-headline{
   font-weight: normal;
 }
 
+h3.ld-headline{
+  font-size: 1.8em;
+  line-height: 2;
+}
 .ld-link{
   text-decoration: none;
   color: inherit;
@@ -86,7 +92,7 @@ h2.ld-headline{
 }
 
 .ld-tag{
-  background: var(--ld-green);
+  background: var(--ld-green--light);
   padding: .3em .5em;
   border-radius: 5px;
   text-decoration: none;
@@ -103,6 +109,9 @@ h2.ld-headline{
 .ld-list{
   margin: 0;
   padding: 0;
+}
+.ld-list--big{
+  font-size: 2em;
 }
 .ld-list__item{
   list-style-type: none;
