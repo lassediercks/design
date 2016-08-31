@@ -25,6 +25,8 @@
     }
 }
 
+
+
 .ld-headline{
   color: var(--ld-dark);
   line-height: 1.2;
@@ -114,6 +116,7 @@ h3.ld-headline{
 }
 
 
+/* Selected text */
 ::selection{
   background: var(--ld-red); 
   color: var(--ld-light);
@@ -121,4 +124,26 @@ h3.ld-headline{
 ::-moz-selection {
   background: var(--ld-red); 
   color: var(--ld-light);
+}
+
+/* Broken Image */
+
+img{
+  position: relative;
+}
+
+img:before{
+  content: attr(alt) " which could not be loaded";
+  display: block;
+  padding: 1em;
+  background: var(--ld-light);
+  border: 5px dashed var(--ld-green);
+  box-sizing: border-box;
+
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2em;
+
+  position: absolute;
+  left: 0;top: 0;
 }
