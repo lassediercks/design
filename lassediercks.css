@@ -121,6 +121,47 @@ h3.ld-headline{
   color: var(--ld-green);
 }
 
+.ld-browserframe{
+  background: #D7D7D7;
+  border-radius: 5px;
+}
+
+.ld-browserframe__head{
+  display: flex;
+  flex-flow: row wrap;
+  height: 20px;
+  padding: .5em .7em;
+  align-items: center;
+}
+.ld-browserframe__buttons{
+  display: flex;
+  flex-grow: 0;
+  margin-right: .3em;
+}
+.ld-browserframe__buttons span{
+  margin-right: .3em;
+  width: 1em;
+  max-width: 10px;
+  display: flex;
+  height: 1em;
+  max-height: 10px;
+  background: var(--ld-really-dark);
+  border-radius: 1em;
+}
+
+
+.ld-browserframe__url{
+  background: #fff;
+  border-radius: 2px;
+  height: 15px;
+  flex: 1;
+}
+
+
+
+.ld-browserframe__image{
+  width: 100%;
+}
 
 /* Selected text */
 ::selection{
