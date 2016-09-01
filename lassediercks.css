@@ -221,6 +221,12 @@ h3.ld-headline{
 .ld-grid__col{
   flex: 0 0 46.5%;
 }
+
+.ld-statement{
+  font-weight: 200;
+  font-size: 2.7em;
+  text-align: center;
+}
 /* Selected text */
 ::selection{
   background: var(--main-color); 
