@@ -133,6 +133,8 @@ h3.ld-headline{
   padding: .5em .7em;
   align-items: center;
 }
+.ld-browserframe__image{
+}
 .ld-browserframe__buttons{
   display: flex;
   flex-grow: 0;
@@ -146,7 +148,7 @@ h3.ld-headline{
   height: 1em;
   max-height: 10px;
   background: var(--ld-really-dark);
-  border-radius: 1em;
+  border-radius: 5px;
 }
 
 
@@ -163,6 +165,21 @@ h3.ld-headline{
   width: 100%;
 }
 
+.ld-divider{
+  height: 5px;
+  background: var(--ld-red);
+  border: none;
+  margin-bottom: .5em;
+}
+
+.ld-grid{
+  display: flex;
+  flew-flow: wrap row;
+  justify-content: space-between;
+}
+.ld-grid__col{
+  flex: 0 0 46.5%;
+}
 /* Selected text */
 ::selection{
   background: var(--ld-red); 
