@@ -7,6 +7,10 @@ body{
 
 }
 
+.demo{
+  --main-color: var(--ld-blue);
+  --main-light-color: var(--ld-blue--light);
+}
 .demo-main{
   margin: 2em;
 }
