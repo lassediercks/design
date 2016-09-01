@@ -16,6 +16,8 @@
 
 .ld{
   font-family: "Branding", sans-serif;
+  color: var(--ld-dark);
+
 }
 
 @media (max-width: 600px) {
@@ -64,14 +66,13 @@
 }
 
 .ld-avatar{
-  border-radius: 59px;
+  border-radius: 120px;
   width: 120px;
   height: 120px;
-  border: 5px solid var(--ld-light);
+  border: 5px solid var(--main-color--light);
 }
 
 .ld-headline{
-  color: var(--ld-dark);
   line-height: 1.2;
   margin: 0;
   padding: 0;
