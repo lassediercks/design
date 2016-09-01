@@ -34,15 +34,9 @@
 
 .ld-topbar{
   background: var(--main-color--light);
-  position: fixed;
   width: 100%;
-  z-index: 5;
   height: 50px;
   display: flex;
-}
-.ld-topbar-wrap{
-  height: 50px;
-  width: 100%;
 }
 .ld-topbar__item{
   color: white;
@@ -60,7 +54,7 @@
   color: var(--ld-dark);
   outline: none;
 }
-.ld-topbar__item--active{
+.ld-topbar__item--active, .ld-topbar__item:active{
   background: var(--ld-dark);
   color: white;
 }
