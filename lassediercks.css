@@ -26,6 +26,39 @@
     }
 }
 
+.ld-topbar{
+  background: var(--ld-red);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  height: 50px;
+}
+.ld-topbar-wrap{
+  height: 50px;
+  width: 100%;
+}
+.ld-topbar__item{
+  border-top: 5px solid var(--ld-red);
+  color: white;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1em;
+  box-sizing: border-box;
+
+  text-decoration: none;
+}
+.ld-topbar__item:focus{
+  background: var(--ld-yellow);
+  color: var(--ld-dark);
+  border-top: 5px solid var(--ld-dark);
+
+}
+.ld-topbar__item--active{
+  border-top: 5px solid var(--ld-yellow);
+}
+
 .ld-avatar{
   border-radius: 59px;
   width: 120px;
