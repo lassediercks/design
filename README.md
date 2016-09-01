@@ -1,5 +1,5 @@
 
-# This is the my design system.
+# This is my design system.
 
 
 ##dependencies:
