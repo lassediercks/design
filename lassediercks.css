@@ -39,6 +39,7 @@
   margin: 0;
   padding: 0;
   font-size: 3em;
+  margin-bottom: 1em;
 }
 
 
@@ -53,7 +54,7 @@ h2.ld-headline{
 
 h3.ld-headline{
   font-size: 1.8em;
-  line-height: 2;
+  line-height: 1.5;
 }
 .ld-link{
   color: inherit;
@@ -70,6 +71,8 @@ h3.ld-headline{
   line-height: 1.5;
   max-width: 60em;
   margin: 0;
+  margin-bottom: 2.5em;
+
 }
 
 .ld-button{
@@ -107,6 +110,8 @@ h3.ld-headline{
 .ld-list{
   margin: 0;
   padding: 0;
+  margin-bottom: 2.5em;
+
 }
 .ld-list--big{
   font-size: 2em;
@@ -124,6 +129,8 @@ h3.ld-headline{
 .ld-browserframe{
   background: #D7D7D7;
   border-radius: 5px;
+  margin-bottom: 2.5em;
+
 }
 
 .ld-browserframe__head{
@@ -133,13 +140,16 @@ h3.ld-headline{
   padding: .5em .7em;
   align-items: center;
 }
+
 .ld-browserframe__image{
 }
+
 .ld-browserframe__buttons{
   display: flex;
   flex-grow: 0;
   margin-right: .3em;
 }
+
 .ld-browserframe__buttons span{
   margin-right: .3em;
   width: 1em;
@@ -151,7 +161,6 @@ h3.ld-headline{
   border-radius: 5px;
 }
 
-
 .ld-browserframe__url{
   background: #fff;
   border-radius: 2px;
@@ -159,17 +168,17 @@ h3.ld-headline{
   flex: 1;
 }
 
-
-
 .ld-browserframe__image{
   width: 100%;
 }
 
 .ld-divider{
-  height: 5px;
+  height: 3px;
   background: var(--ld-red);
   border: none;
-  margin-bottom: .5em;
+  margin: 0;
+  border-radius: 3px;
+  margin-bottom: 2.5em;
 }
 
 .ld-grid{
