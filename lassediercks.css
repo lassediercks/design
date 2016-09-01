@@ -10,7 +10,8 @@
   --ld-green--light: #A3F6E0;
   --ld-green: #20E8B4;
 
-  --main-color: var(--ld-red);
+  --main-color: var(--ld-blue);
+  --main-color--light: var(--ld-blue--light);
 }
 
 .ld{
@@ -30,7 +31,7 @@
 }
 
 .ld-topbar{
-  background: var(--main-color);
+  background: var(--main-color--light);
   position: fixed;
   width: 100%;
   z-index: 5;
