@@ -244,7 +244,7 @@ h3.ld-headline{
 .ld-heading__subtitle{
   display: inline-block;
   font-weight: 200;
-  max-width: 10em;
+  max-width: 12em;
   margin: 0;
   font-size: 1.3em;
 }
