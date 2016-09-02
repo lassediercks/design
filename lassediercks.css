@@ -227,6 +227,20 @@ h3.ld-headline{
   font-size: 2.7em;
   text-align: center;
 }
+
+.ld-heading{
+  text-align: center;
+  padding: 3em;
+}
+.ld-heading__title{
+  font-size: 2em;
+  margin: 0;
+}
+.ld-heading__subtitle{
+  font-weight: 200;
+  margin: 0;
+  font-size: 1.3em;
+}
 /* Selected text */
 ::selection{
   background: var(--main-color); 
