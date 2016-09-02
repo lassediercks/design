@@ -105,7 +105,7 @@ h3.ld-headline{
   display: inline-block;
   line-height: 1.5;
   margin: 0;
-  text-align: justify;
+  text-align: left;
   margin-bottom: 1.5em;
 
 }
@@ -242,7 +242,9 @@ h3.ld-headline{
   margin: 0;
 }
 .ld-heading__subtitle{
+  display: inline-block;
   font-weight: 200;
+  max-width: 10em;
   margin: 0;
   font-size: 1.3em;
 }
