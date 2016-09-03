@@ -132,12 +132,20 @@ h3.ld-headline{
 
 .ld-call-and-action{
   text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
+.ld-call-and-action > *{
+  margin: .5em;
+}
+
 .ld-call-and-action__title{
   display: inline-block;
   font-size: 2em;
-  padding: .1em 1em;
 }
+
 .ld-tag{
   background: var(--ld-green--light);
   padding: .3em .5em;
