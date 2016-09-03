@@ -130,6 +130,14 @@ h3.ld-headline{
   outline: 5px solid var(--ld-yellow);
 }
 
+.ld-call-and-action{
+  text-align: center;
+}
+.ld-call-and-action__title{
+  display: inline-block;
+  font-size: 2em;
+  padding: .1em 1em;
+}
 .ld-tag{
   background: var(--ld-green--light);
   padding: .3em .5em;
