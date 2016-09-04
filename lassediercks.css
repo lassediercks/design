@@ -102,6 +102,7 @@ h3.ld-headline{
 
 .ld-paragraph{
   font-size: 1.1em;
+  font-weight: 400;
   max-width: 40em;
   display: inline-block;
   line-height: 1.5;
@@ -165,8 +166,6 @@ h3.ld-headline{
 .ld-list{
   margin: 0;
   padding: 0;
-  margin-bottom: 2.5em;
-
 }
 .ld-list--big{
   font-size: 1.5em;
