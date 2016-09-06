@@ -171,11 +171,15 @@ h3.ld-headline{
   font-size: 1.5em;
 }
 .ld-list__item{
+  margin-left: 1em;
+  position: relative;
   list-style-type: none;
   padding: .3em 0;
 }
 .ld-list__item:before{
   content:'•';
+  position: absolute;
+  left: -1em;
   margin-right: .3em;
   color: var(--ld-green);
 }
