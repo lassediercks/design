@@ -103,12 +103,12 @@ h3.ld-headline{
 .ld-paragraph{
   font-size: 1.1em;
   font-weight: 400;
-  max-width: 40em;
+  max-width: 35em;
   display: inline-block;
   line-height: 1.5;
   margin: 0;
   text-align: left;
-  margin-bottom: 1.5em;
+  margin: 0 auto 1.5em auto;
 
 }
 
