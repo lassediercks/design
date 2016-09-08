@@ -104,7 +104,7 @@ h3.ld-headline{
   font-size: 1.1em;
   font-weight: 400;
   max-width: 35em;
-  display: inline-block;
+  display: block;
   line-height: 1.5;
   margin: 0;
   text-align: left;
