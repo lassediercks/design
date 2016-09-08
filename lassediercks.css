@@ -241,7 +241,7 @@ h3.ld-headline{
 
 .ld-grid{
   display: flex;
-  flew-flow: wrap row;
+  flex-flow: wrap row;
   justify-content: space-between;
 }
 .ld-grid__col{
