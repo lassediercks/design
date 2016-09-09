@@ -104,13 +104,17 @@ h3.ld-headline{
   font-size: 1.1em;
   font-weight: 400;
   max-width: 35em;
-  display: block;
   line-height: 1.5;
   margin: 0;
   text-align: left;
-  margin: 0 auto 1.5em auto;
-
+  margin: 0 0 1.5em 0;
 }
+
+.ld-paragraph--centered{
+  margin: 0 auto 1.5em auto;
+  display: block;
+}
+
 
 .ld-button{
   display: inline-flex;
