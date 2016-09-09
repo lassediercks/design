@@ -168,7 +168,7 @@ h3.ld-headline{
 }
 
 .ld-list{
-  margin: 0;
+  margin: 0 0 2.5em 0;
   padding: 0;
 }
 .ld-list--big{
