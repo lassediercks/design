@@ -45,6 +45,6 @@ body{
   display: inline-block;
 }
 
-.demo-footer{
+.demo-footer, .demo-footer .ld-paragraph--centered{
   text-align: center;
 }
