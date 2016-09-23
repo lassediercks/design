@@ -335,11 +335,11 @@ img{
 }
 
 img:before{
-  content: attr(alt) " which could not be loaded";
+  content: "broken image of " attr(alt) " which could not be loaded";
   display: block;
   padding: 1em;
   background: var(--ld-light);
-  border: 5px dashed var(--ld-green);
+  border: 5px dashed var(--ld-yellow);
   box-sizing: border-box;
 
   font-weight: 600;
@@ -348,4 +348,10 @@ img:before{
 
   position: absolute;
   left: 0;top: 0;
+}
+img:after{
+  content: ' ';
+  width: 500px;
+  height: 100px;
+  display: block;
 }
