@@ -269,6 +269,7 @@ h3.ld-headline{
   margin-bottom: 2.5em;
 }
 
+
 .ld-grid{
   display: flex;
   flex-flow: wrap row;
@@ -281,6 +282,14 @@ h3.ld-headline{
   flex: 0 0 100%;
   margin-bottom: .3em;
 }
+@media (max-width: 600px) {
+  .ld-grid__col{
+    flex: 0 0 100%;
+    margin-bottom: .3em;
+  }
+}
+
+
 .ld-statement{
   font-weight: 200;
   font-size: 2.3em;
