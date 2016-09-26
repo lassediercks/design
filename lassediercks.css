@@ -148,14 +148,26 @@ h3.ld-headline{
   align-content: center;
   justify-content: center;
   flex-flow: row wrap;
-}
-.ld-call-and-action > *{
-  margin: .5em;
+  padding: .5em 0;
 }
 
+.ld-call-and-action__text{
+  text-align: right;
+  margin-right: 1em;
+}
 .ld-call-and-action__title{
   display: inline-block;
   font-size: 2em;
+  margin: 0;
+  line-height: 1;
+
+}
+.ld-call-and-action__subtitle{
+  font-weight: 300;
+  font-size: 1.2em;
+  margin: 0;
+}
+.ld-call-and-action__button{
 }
 
 .ld-tag{
