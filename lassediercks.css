@@ -188,6 +188,7 @@ h3.ld-headline{
 }
 .ld-list__item{
   margin-left: 1em;
+  line-height: 1.7;
   position: relative;
   list-style-type: none;
   padding: .3em 0;
