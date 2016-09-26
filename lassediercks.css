@@ -80,16 +80,16 @@
 
 h1.ld-headline{
   font-weight: bold;
-  font-size: 4em;
+  font-size: 3em;
 }
 h2.ld-headline{
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: normal;
 }
 
 h3.ld-headline{
   font-size: 1.8em;
-  font-weight: 200;
+  font-weight: normal;
   line-height: 1.5;
 }
 .ld-link{
@@ -276,10 +276,13 @@ h3.ld-headline{
 .ld-grid__col{
   flex: 0 0 46.5%;
 }
-
+.ld-grid__row{
+  flex: 0 0 100%;
+  margin-bottom: .3em;
+}
 .ld-statement{
   font-weight: 200;
-  font-size: 2.7em;
+  font-size: 2.3em;
   text-align: center;
 }
 
