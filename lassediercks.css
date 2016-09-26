@@ -375,14 +375,14 @@ img:before{
 
   font-weight: 600;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
 
   position: absolute;
   left: 0;top: 0;
 }
 img:after{
   content: ' ';
-  width: 350px;
+  width: 200px;
   height: 100px;
   display: block;
 }
