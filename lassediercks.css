@@ -177,6 +177,12 @@ h3.ld-headline{
 .ld-list{
   margin: 0 0 2.5em 0;
   padding: 0;
+  max-width: 35em;
+}
+.ld-list--centered {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .ld-list--big{
   font-size: 1.5em;
