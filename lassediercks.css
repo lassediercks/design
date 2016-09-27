@@ -139,7 +139,7 @@ h3.ld-headline{
 .ld-call-and-action{
   text-align: center;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   flex-flow: row wrap;
   padding: .5em 0;
@@ -148,6 +148,12 @@ h3.ld-headline{
 .ld-call-and-action__text{
   text-align: right;
   margin-right: 1em;
+}
+
+@media (max-width: 600px) {
+    .ld-call-and-action__text{
+      text-align: center;
+    }
 }
 .ld-call-and-action__title{
   display: inline-block;
@@ -163,6 +169,7 @@ h3.ld-headline{
 }
 .ld-call-and-action__button{
   margin-bottom: 0;
+  margin: 1em;
 }
 
 .ld-tag{
