@@ -20,12 +20,6 @@
   font-size: 16px;
 }
 
-@media (max-width: 600px) {
-    .ld{
-      font-size: 14px;
-    }
-}
-
 @media (min-width: 900px) {
     .ld{
       font-size: 18px;
@@ -311,44 +305,7 @@ h3.ld-headline{
   margin: 0;
   font-size: 1.3em;
 }
-.ld-action-card{
-  margin: 0 auto 3em;
-  max-width: 40em;
-  background: var(--ld-red);
-  color: white;
-  border-radius: 5px;
-  padding: 1.5em;
-  display: flex;
-  flex-flow: column wrap;
-  -ms-align-items: center;
-  align-items: flex-start;
-}
-.ld-action-card--yellow{
-  color: var(--ld-dark);
-  background: var(--ld-yellow);
-}
-.ld-action-card--green{
-  color: var(--ld-dark);
-  background: var(--ld-green);
-}
-.ld-action-card--blue{
-  background: var(--ld-blue);
-}
 
-.ld-action-card__title{
-  font-size: 3em;
-  margin: 0;
-  padding: 0;
-}
-.ld-action-card__description{
-  font-size: 1.3em;
-}
-.ld-action-card__button{
-  align-self: flex-end;
-  background: white;
-  color: var(--ld-dark);
-  margin-bottom: 0;
-}
 /* Selected text */
 ::selection{
   background: var(--main-color);
