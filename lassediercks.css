@@ -219,7 +219,7 @@ h3.ld-headline{
   display: flex;
   flex-flow: row wrap;
   height: 20px;
-  padding: .5em .7em;
+  padding: 4px 8px;
   align-items: center;
 }
 
