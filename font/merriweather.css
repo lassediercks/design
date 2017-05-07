@@ -1,0 +1,38 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Merriweather Sans";
+
+  src: url("./MerriweatherSans-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./MerriweatherSans-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Merriweather Sans";
+
+  src: url("./MerriweatherSans-Bold.woff") format("woff"), /* Modern Browsers */
+    url("./MerriweatherSans-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Merriweather";
+
+  src: url("./Merriweather-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./Merriweather-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Merriweather";
+
+  src: url("./Merriweather-Bold.woff") format("woff"), /* Modern Browsers */
+    url("./Merriweather-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: bold;
+  font-style: normal;
+}
