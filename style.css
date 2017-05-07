@@ -27,6 +27,7 @@ body{
   font-size: 2em;
   margin-bottom: .5em;
   font-weight: bold;
+  font-family: "Merriweather";
   text-transform: uppercase;
 }
 
@@ -51,6 +52,7 @@ body{
 
 .ld-grid__col,.ld-grid__row{
   background: var(--ld-green);
+  color: var(--ld-light);
   height: 30px;
   border-radius: 5px;
   text-align: center;
