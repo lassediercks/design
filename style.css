@@ -1,20 +1,19 @@
-body{
+body {
   margin: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   background: var(--ld-light);
-
 }
 
-.demo{
+.demo {
   --main-color: var(--ld-blue);
   --main-light-color: var(--ld-blue--light);
 }
-.demo-main{
+.demo-main {
   margin: 1em;
 }
-.demo-con{
+.demo-con {
   border: 5px solid #eee;
   padding: 1.5em;
   max-width: 750px;
@@ -23,34 +22,36 @@ body{
   border-radius: 1px;
 }
 
-.demo-label{
+.demo-label {
   font-size: 2em;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   font-weight: bold;
-  font-family: "Merriweather";
+  font-family: var(--font-family);
   text-transform: uppercase;
 }
 
-.demo-color{
+.demo-color {
   display: inline-block;
-  padding: 1em .2em;
+  padding: 1em 0.2em;
 }
-.demo-color-label{
+.demo-color-label {
   font-size: 1.5em;
-  margin: .3em 0;
+  margin: 0.3em 0;
 }
-.demo-color-square{
+.demo-color-square {
   width: 150px;
   height: 100px;
   border-radius: 5px;
   display: inline-block;
 }
 
-.demo-footer, .demo-footer .ld-paragraph--centered{
+.demo-footer,
+.demo-footer .ld-paragraph--centered {
   text-align: center;
 }
 
-.ld-grid__col,.ld-grid__row{
+.ld-grid__col,
+.ld-grid__row {
   background: var(--ld-green);
   color: var(--ld-light);
   height: 30px;
