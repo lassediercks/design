@@ -1,15 +1,15 @@
-:root{
-  --ld-dark: #505050;
-  --ld-really-dark: #3B3B3B;
-  --ld-light: #F9F9F9;
-  --ld-red: #C41E48;
-  --ld-red--light: #9C465B;
-  --ld-yellow: #FFBD00;
-  --ld-blue--light: #3B4152;
-  --ld-blue: #303340;
-  --ld-green--light: #13A169;
-  --ld-green: #0D724A;
-
+:root {
+  --ld-dark: #3b3b3b;
+  --ld-really-dark: black;
+  --ld-light: #f9f9f9;
+  --ld-red: #740c2e;
+  --ld-red--light: #d40045;
+  --ld-yellow: #ffb900;
+  --ld-blue: #3c71ff;
+  --ld-purple: #671898;
+  --ld-purple--light: #a540e2;
+  --ld-green: #067f52;
+  --ld-green--light: #56eb36;
 
   --focus-color: var(--ld-red);
   --headline-font: "Merriweather", serif;
@@ -182,10 +182,10 @@ h3.ld-headline{
   margin: 1em;
 }
 
-.ld-tag{
-  background: var(--ld-green--light);
-  padding: .3em .5em;
-  border-radius: 5px;
+.ld-tag {
+  background: var(--ld-green);
+  padding: 0.3em 0.5em;
+  border-radius: var(--border-radius);
   text-decoration: none;
   color: var(--ld-light);
   margin: 0 0em .3em 0;
