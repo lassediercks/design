@@ -23,7 +23,7 @@
 
 .ld {
   font-family: var(--font-family);
-  color: var(--ld-dark);
+  color: var(--ld-light);
   font-size: 16px;
 }
 

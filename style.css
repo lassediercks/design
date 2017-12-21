@@ -3,7 +3,8 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background: var(--ld-light);
+  background: var(--ld-really-dark);
+  color: var(--ld-light);
 }
 
 .demo {
@@ -13,12 +14,11 @@ body {
 .demo-main {
   margin: 1em;
 }
+
 .demo-con {
-  border: 5px solid #eee;
   padding: 1.5em;
   max-width: 750px;
   margin-bottom: 1em;
-  background: white;
   border-radius: 1px;
 }
 
@@ -26,7 +26,7 @@ body {
   font-size: 2em;
   margin-bottom: 0.5em;
   font-weight: bold;
-  font-family: var(--font-family);
+  font-family: var(--headline-font);
   text-transform: uppercase;
 }
 
