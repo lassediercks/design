@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "muli";
+  src: url("muli-regular.woff2") format("woff2"),
+    url("muli-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "muli-extrabold";
+  src: url("muli-extrabold.woff2") format("woff2"),
+    url("muli-extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}

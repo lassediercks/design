@@ -12,13 +12,16 @@
   --ld-green--light: #56eb36;
 
   --focus-color: var(--ld-red);
-  --headline-font: "Merriweather", serif;
+
+  --font-family: "Muli", sans-serif;
+  --headline-font: "Muli-extrabold", sans-serif;
+
   --main-color: var(--ld-blue);
   --main-color--light: var(--ld-blue--light);
 }
 
-.ld{
-  font-family: "Merriweather Sans", sans-serif;
+.ld {
+  font-family: var(--font-family);
   color: var(--ld-dark);
   font-size: 16px;
 }
