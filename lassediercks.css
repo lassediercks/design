@@ -25,6 +25,7 @@
 .ld {
   font-family: var(--font-family);
   color: var(--ld-light);
+  background: var(--ld-really-dark);
   font-size: 16px;
 }
 
