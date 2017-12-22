@@ -6,9 +6,8 @@
   --ld-red--light: #d40045;
   --ld-yellow: #ffb900;
   --ld-blue: #3c71ff;
-  --ld-purple: #671898;
-  --ld-purple--light: #a540e2;
-  --ld-green: #067f52;
+  --ld-purple: #ff2bd8;
+  --ld-green: #56eb36;
   --ld-green--light: #56eb36;
 
   --focus-color: var(--ld-red);
@@ -69,8 +68,9 @@
 .ld-nav {
   width: calc(var(--base) * 30);
   position: fixed;
-  left: 0;
-  justify-items: last baseline;
+  left: calc(var(--base) * 5);
+  top: calc(var(--base) * 10);
+  justify-items: end;
   display: grid;
   grid-template-columns: auto;
   grid-auto-rows: calc(var(--base) * 10);
@@ -225,7 +225,7 @@ h3.ld-headline {
   padding: 0.3em 0.5em;
   border-radius: var(--border-radius);
   text-decoration: none;
-  color: var(--ld-light);
+  color: var(--ld-really-dark);
   margin: 0 0em 0.3em 0;
   box-sizing: border-box;
   display: inline-block;
@@ -382,6 +382,7 @@ img:before {
   padding: 1em;
   border: 5px dashed var(--ld-yellow);
   box-sizing: border-box;
+  background: var(--ld-really-dark);
 
   font-weight: 600;
   text-align: center;
@@ -391,6 +392,7 @@ img:before {
   left: 0;
   top: 0;
 }
+
 img:after {
   content: " ";
   width: 200px;
