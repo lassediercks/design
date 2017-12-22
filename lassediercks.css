@@ -19,7 +19,8 @@
   --focus-color: var(--ld-red);
   --main-color: var(--ld-blue);
 
-  --border-radius: 1px;
+  --base: 4px;
+  --border-radius: 2px;
 }
 
 .ld {
@@ -65,6 +66,39 @@
   color: white;
 }
 
+.ld-nav {
+  width: calc(var(--base) * 30);
+  transform: translateX(calc(var(--base) * -30));
+  position: fixed;
+  left: auto;
+  justify-items: last baseline;
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: calc(var(--base) * 10);
+  grid-auto-flow: row;
+  grid-row-gap: calc(var(--base) * 4);
+}
+
+.ld-nav__item {
+  display: inline-flex;
+  justify-content: flex-end;
+  border-radius: var(--border-radius);
+  font-weight: 900;
+  align-items: center;
+  color: var(--ld-light);
+  padding: calc(var(--base) * 2) calc(var(--base) * 3);
+  text-decoration: none;
+  transform: rotate(-20deg);
+  transform-origin: 100% 50%;
+  background: var(--ld-blue);
+  transition: transform 350ms cubic-bezier(0.39, 1.8, 0.15, 0.68);
+}
+
+@media (max-width: 1200px) {
+  .ld-nav__item {
+    transform: rotate(-35deg);
+  }
+}
 .ld-header {
 }
 
@@ -144,6 +178,11 @@ h3.ld-headline {
 .ld-button:focus {
   box-shadow: 0 0 0 3px var(--focus-color);
   outline: none;
+}
+
+.ld-cta {
+  color: var(--ld-really-dark);
+  background-color: var(--ld-yellow);
 }
 
 .ld-call-and-action {
