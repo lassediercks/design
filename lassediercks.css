@@ -68,9 +68,8 @@
 
 .ld-nav {
   width: calc(var(--base) * 30);
-  transform: translateX(calc(var(--base) * -30));
   position: fixed;
-  left: auto;
+  left: 0;
   justify-items: last baseline;
   display: grid;
   grid-template-columns: auto;
