@@ -2,8 +2,8 @@
 @font-face {
   font-family: "Merriweather Sans";
 
-  src: url("./MerriweatherSans-Regular.woff") format("woff"), /* Modern Browsers */
-    url("./MerriweatherSans-Regular.woff2") format("woff2"); /* Modern Browsers */
+  src: url(".//MerriweatherSans-Regular.woff") format("woff"), /* Modern Browsers */
+    url(".//MerriweatherSans-Regular.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }

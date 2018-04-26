@@ -3,8 +3,6 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background: var(--ld-really-dark);
-  color: var(--ld-light);
 }
 
 .demo {
