@@ -2,16 +2,16 @@
   --ld-dark: #3b3b3b;
   --ld-really-dark: black;
   --ld-light: #f9f9f9;
-  --ld-red: #FFA664;
-  --ld-yellow: #FFF153;
-  --ld-blue: #4A84FF;
-  --ld-purple: #E873E7;
-  --ld-green: #91E8AF;
+  --ld-red: #ffa664;
+  --ld-yellow: #fff153;
+  --ld-blue: #4a84ff;
+  --ld-purple: #e873e7;
+  --ld-green: #91e8af;
 
   --focus-color: var(--ld-red);
 
-  --font-family: "Muli", sans-serif;
-  --headline-font: "Muli-extrabold", sans-serif;
+  --font-family: 'Muli', sans-serif;
+  --headline-font: 'Muli-extrabold', sans-serif;
 
   --focus-color: var(--ld-red);
   --main-color: var(--ld-blue);
@@ -115,7 +115,8 @@ h3.ld-headline {
   outline: none;
 }
 
-.ld-paragraph {
+.ld-paragraph,
+p {
   font-weight: 400;
   max-width: 35em;
   line-height: 1.7;
@@ -231,7 +232,7 @@ h3.ld-headline {
   padding: 0.3em 0;
 }
 .ld-list__item:before {
-  content: "•";
+  content: '•';
   position: absolute;
   left: -1em;
   margin-right: 0.3em;
@@ -352,7 +353,7 @@ img {
 }
 
 img:before {
-  content: "image of " attr(alt) " which could not be loaded";
+  content: 'image of ' attr(alt) ' which could not be loaded';
   display: block;
   padding: 1em;
   border: 5px dashed var(--ld-yellow);
@@ -369,7 +370,7 @@ img:before {
 }
 
 img:after {
-  content: " ";
+  content: ' ';
   width: 200px;
   height: 100px;
   display: block;
