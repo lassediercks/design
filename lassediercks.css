@@ -117,6 +117,7 @@ h3.ld-headline {
 
 .ld-paragraph,
 p {
+  font-size: 22px;
   font-weight: 400;
   max-width: 35em;
   line-height: 1.7;
