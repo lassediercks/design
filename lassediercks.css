@@ -240,51 +240,6 @@ p {
   color: var(--ld-green);
 }
 
-.ld-browserframe {
-  background: #d7d7d7;
-  border-radius: 5px;
-  margin-bottom: 2.5em;
-}
-
-.ld-browserframe__head {
-  display: flex;
-  flex-flow: row wrap;
-  height: 20px;
-  padding: 4px 8px;
-  align-items: center;
-}
-
-.ld-browserframe__image {
-}
-
-.ld-browserframe__buttons {
-  display: flex;
-  flex-grow: 0;
-  margin-right: 0.3em;
-}
-
-.ld-browserframe__buttons span {
-  margin-right: 0.3em;
-  width: 1em;
-  max-width: 10px;
-  display: flex;
-  height: 1em;
-  max-height: 10px;
-  background: var(--ld-really-dark);
-  border-radius: 5px;
-}
-
-.ld-browserframe__url {
-  background: #fff;
-  border-radius: 2px;
-  height: 15px;
-  flex: 1;
-}
-
-.ld-browserframe__image {
-  width: 100%;
-}
-
 .ld-divider {
   height: 3px;
   background: var(--main-color);
@@ -348,6 +303,10 @@ p {
 }
 
 /* Broken Image */
+
+.ld-image {
+  width: 100%;
+}
 
 img {
   position: relative;
